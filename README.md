@@ -14,6 +14,21 @@ To compile the student test program, run:
 
 g++ -std=c++23 -Wall -Wextra -pedantic -I. tests/student_tests.cpp TreeExplorer.cpp -o student_tests
 ## How to Run
+To run the main demonstration program, use:
+
+
+./tree_explorer
+
+
+To run the student tests, use:
+
+
+./student_tests
+
+
+To run the assignment validator, use:
+
+python validate.py
 
 ## Tests and Results
 
