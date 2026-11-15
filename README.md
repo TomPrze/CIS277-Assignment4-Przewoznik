@@ -7,9 +7,11 @@ This program will construct trees, return their traversal sequences, measure the
 The programs are compiled using a C++23 compiler with warning flags enabled.
 
 To compile the main demonstration program, run:
+
 g++ -std=c++23 -Wall -Wextra -pedantic main.cpp TreeExplorer.cpp -o tree_explorer
 
 To compile the student test program, run:
+
 g++ -std=c++23 -Wall -Wextra -pedantic -I. tests/student_tests.cpp TreeExplorer.cpp -o student_tests
 ## How to Run
 
