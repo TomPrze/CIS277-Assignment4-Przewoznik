@@ -8,27 +8,33 @@ The programs are compiled using a C++23 compiler with warning flags enabled.
 
 To compile the main demonstration program, run:
 
+```sh
 g++ -std=c++23 -Wall -Wextra -pedantic main.cpp TreeExplorer.cpp -o tree_explorer
+```
 
 To compile the student test program, run:
 
+```sh
 g++ -std=c++23 -Wall -Wextra -pedantic -I. tests/student_tests.cpp TreeExplorer.cpp -o student_tests
+```
 ## How to Run
 To run the main demonstration program, use:
 
-
+```sh
 ./tree_explorer
-
+```
 
 To run the student tests, use:
 
-
+```sh
 ./student_tests
-
+```
 
 To run the assignment validator, use:
 
+```sh
 python validate.py
+```
 
 ## Tests and Results
 
